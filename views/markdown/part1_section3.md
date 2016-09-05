@@ -1,7 +1,6 @@
 ### Back End
 
 * So front end technologies are super powerful.  What can't they do?  If we can do all that on the front end, why do we need back end developers at all?
-	* Because I'm one and I need to get paid.
 	* The backend of a web application is a great place for sensitive data that you wouldn't want to expose to the client (medical/banking/etc)
 	* It's a good place to store proprietary technology (google's algorithm, it's the secret sauce)
 	* Significantly more giggling compared to front end

@@ -78,10 +78,10 @@ body {
 ### Front End - JavaScript
 * JavaScript (JS) controls interactivity in the web application
 	* Do you want to assign a word to a thing (variable) that you can use in place of it?
-	{{#code "javascript"}}const oneThing = "hello";{{/code}}
+	{{#code "javascript"}}var oneThing = "hello";{{/code}}
 	* Do you want to take one thing (string/int) and combine it with another?
-	{{#code "javascript"}}let newThing = oneThing + anotherThing;{{/code}}
-	* Do you want to tell the user about that new thing? (talk concatenation?)
+	{{#code "javascript"}}var newThing = oneThing + anotherThing;{{/code}}
+	* Do you want to tell the user about that new thing?
 	{{#code "javascript"}}alert("Check out this thing! --> " + newThing);{{/code}}
 
 ---
@@ -89,10 +89,10 @@ body {
 ### Front End - JavaScript
 
 {{#code "javascript"}}
-const oneThing = "hello";
-const anotherThing = "world";
+var oneThing = "hello";
+var anotherThing = "world";
 
-let newThing = oneThing + ' ' + anotherThing;
+var newThing = oneThing + ' ' + anotherThing;
 
 alert(newThing);
 {{/code}}
@@ -101,6 +101,6 @@ alert(newThing);
 
 ### Front End - JavaScript
 
-* JavaScript is wonderful, but not always terribly concise.  HTML and CSS and great for single one line examples of basic functionality, but that's not something JavaScript excels at.  Stay tuned for more examples.
+* JavaScript is wonderful, but not always terribly concise.  HTML and CSS and great for single one line examples of basic functionality, but that's not something JavaScript excels at.
 
 ---
